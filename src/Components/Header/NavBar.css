@@ -1,0 +1,15 @@
+.nav-bar-container{
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+}
+
+.nav-bar-item-container{
+    margin-right: 40px;
+    display: flex;
+}
+
+.nav-bar-item{
+    padding: 0 10px;
+}

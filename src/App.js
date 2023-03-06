@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/Header/NavBar';
+import Home from './Components/Main/Home';
+import Section1 from './Components/Main/Section/Section1/Section1';
+import Section2 from './Components/Main/Section/Section2/Section2';
+// import ThreeCanvas from '../src/Components/Three/ThreeCanvas';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <NavBar/>
+        <Home/>
+        <Section1/>
+        <Section2/>
     </div>
   );
 }
