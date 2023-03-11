@@ -5,9 +5,11 @@ function NavBar() {
   return (
     <div className="nav-bar-container">
       <div className="nav-bar-item-container">
-        <li className="nav-bar-item">Works</li>
-        <li className="nav-bar-item">About</li>
-        <li className="nav-bar-item">Contact</li>
+        <a className="nav-bar-item" href="#home">Home</a>
+        <a className="nav-bar-item" href="#section1">
+          About
+        </a>
+        <a className="nav-bar-item" href="#section2">Works</a>
       </div>
     </div>
   );

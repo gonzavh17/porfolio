@@ -13,7 +13,7 @@ import minimalist1 from "../../../../assets/img/minimalist1.jpg";
 
 function Section1() {
   return (
-    <section className="section1">
+    <section className="section1" id="section1">
       <div className="about-me">
         <div className="description-container">
           <p className="section-title">¿Who I am?</p>

@@ -1,11 +1,35 @@
 .section2{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
     margin-left: 120px;
+    margin-right: 120px;
 }
 
 .section2-title{
     font-size: 2.5rem;
     color: #fff;
+}
+
+.work{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    margin-right: 40px;
+}
+
+.work-title{
+    font-size: 2.5rem;
+}
+
+.work-description{
+    font-size: 1.5rem;
+    width: 50%;
+}
+
+.work-description-container{
+}
+
+
+.work-img{
+    width: 400px;
+    height: 500px;
+    margin: 20px 60px 20px 40px;
 }
