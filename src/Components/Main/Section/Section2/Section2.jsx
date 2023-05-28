@@ -1,8 +1,8 @@
 import React from "react";
-import photo0 from "../../../../Static/photographs/0.jpg";
-import photo1 from "../../../../Static/photographs/1.jpg";
-import photo2 from "../../../../Static/photographs/2.jpg";
-import photo3 from "../../../../Static/photographs/3.jpg";
+import photo0 from "../../../../assets/img/0.jpg";
+import photo1 from "../../../../assets/img/1.jpg";
+import photo2 from "../../../../assets/img/2.jpg";
+import photo3 from "../../../../assets/img/3.jpg";
 
 import "./Section2.css";
 
